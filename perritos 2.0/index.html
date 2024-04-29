@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Centrado de Texto</title>
+    <style>
+      body {
+        background-color: white; /* Fondo blanco */
+        color: black; /* Cambiar el color del texto a negro */
+      }
+
+      .centrado {
+        text-align: center;
+        margin-top: 50px; /* Añadir espacio en la parte superior */
+      }
+
+      .navbar-brand {
+        color: white !important; /* Color blanco para el texto del logo */
+      }
+
+      .navbar {
+        background-color: black; /* Fondo negro para la barra de navegación */
+      }
+
+      .navbar-nav .nav-link {
+        color: white !important; /* Color blanco para el texto de los enlaces */
+      }
+
+      .carousel-item img {
+        display: block;
+        margin: 0 auto; /* Centrar horizontalmente las imágenes */
+        width: 100%; /* Hacer que todas las imágenes ocupen el 100% del contenedor */
+        height: auto; /* Permitir que la altura se ajuste automáticamente */
+      }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">D.A.A</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">iniciar secion </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Adopta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quienessomos.html">Quienes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">servicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">contactanos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="centrado">
+        <h1>Bienvenidos a D.A.A</h1>
+        <p>Duoc Ayuda a Animales</p>
+      </div>
+      
+      <!-- Carrucel -->
+      <div class="container mt-5">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicadores -->
+          <ul class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ul>
+      
+          <!-- Imágenes del carrusel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/perros-callejeros.jpg" class="d-block" alt="Imagen 1">
+              <div class="carousel-caption d-none d-md-block">     
+              </div>
+      
+            </div>
+            <div class="carousel-item">
+              <img src="img/perritos.jpeg" class="d-block" alt="Imagen 2">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+      
+            <div class="carousel-item">
+              <img src="img/perrito 2.jpg" class="d-block" alt="Imagen 3">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+      
+            <div class="carousel-item">
+              <img src="img/mrs dog.jpg" class="d-block" alt="Imagen 4">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+      
+          <!-- Controles de carrusel -->
+          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+          </a>
+        </div>
+      </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
+
+
