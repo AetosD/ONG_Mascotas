@@ -1,0 +1,28 @@
+body {
+    background-color: white; /* Fondo blanco */
+    color: black; /* Cambiar el color del texto a negro */
+  }
+
+  .centrado {
+    text-align: center;
+    margin-top: 50px; /* Añadir espacio en la parte superior */
+  }
+
+  .navbar-brand {
+    color: white !important; /* Color blanco para el texto del logo */
+  }
+
+  .navbar {
+    background-color: black; /* Fondo negro para la barra de navegación */
+  }
+
+  .navbar-nav .nav-link {
+    color: white !important; /* Color blanco para el texto de los enlaces */
+  }
+
+  .carousel-item img {
+    display: block;
+    margin: 0 auto; /* Centrar horizontalmente las imágenes */
+    width: 100%; /* Hacer que todas las imágenes ocupen el 100% del contenedor */
+    height: auto; /* Permitir que la altura se ajuste automáticamente */
+  }
